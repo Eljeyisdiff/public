@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+    background-image: url("/Web Portal/zimages/IMG_3922.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.title {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+
+}
+
+img {
+    width: 67px;
+    height: 66px;
+    float: left;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    left: 50px;
+
+}
+
+#iframe {
+    width: 55%;
+    height: 70%;
+    border: 1px solid;
+    border-radius: 10px;
+
+    position: relative;
+    top: 100px;
+    left: 2%;
+}
+
+#Log-In-Button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(1, 54, 18);
+    color: white;
+    width: 75px;
+    height: 30px;
+    font-size: 15px;
+
+
+    position: absolute;
+    right: 250px;
+    top: 20px;
+    transition: 0.2s ease-in-out;
+
+}
+
+#Register-Button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(1, 54, 18);
+    color: white;
+    width: 75px;
+    height: 30px;
+    font-size: 15px;
+
+
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+#Register-Button:hover {
+    background-color: grey;
+    color: white;
+}
+
+#Register-Button:active {
+    background-color: white;
+    color: grey;
+}
+
+#Log-In-Button:hover {
+    background-color: grey;
+    color: white;
+}
+
+#Log-In-Button:active {
+    background-color: white;
+    color: grey;
+
+}
+#Enrollment-Button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(1, 54, 18);
+    color: white;
+    width: 75px;
+    height: 30px;
+    font-size: 15px;
+
+
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    transition: 0.2s ease-in-out;
+    
+}
+#Enrollment-Button:hover{
+    background-color: grey;
+    color: white;
+    
+}
+#Enrollment-Button:active{
+    background-color: white;
+    color: grey;
+}
+
+
+.welcome {
+    margin: 0;
+    text-align: left;
+    background-color: rgb(1, 54, 18);
+    color: white;
+    width: 50%;
+    height: 91%;
+    position: relative;
+    left: 764px;
+
+}
+
+.welcome h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 65px;
+
+}
+
+.introduction {
+    position: relative;
+    align-content: center;
+    top: 50px;
+    font-size: 22px;
+    margin-left: 60px;
+
+}

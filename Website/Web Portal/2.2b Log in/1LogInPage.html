@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <link rel="stylesheet" href="./style2.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="LoginBox">
+      <form action="signup.inc.php" method="post">
+        <h1>BINHS STUDENTS-PORTAL</h1>
+        <div class="input-user">
+          <i class="bx bxs-user"></i>
+          <input id="input-lrn" type="text" placeholder=" LRN: " autocomplete="off" required />
+          <br />
+          <div class="input-password">
+            <i class="bx bxs-lock-alt"></i>
+            <input
+              id="input-pass"
+              type="password"
+              placeholder=" Password: "
+              autocomplete="off"
+              required
+            /><br />
+            <input id="login" type="submit" value="Log In" />
+          </div>
+        </div>
+      </form>
+      <div>
+        <a id="forgot" href="forgot.html">Forgot password?</a>
+        <a id="acc" href="">Don't have an account?</a>
+      </div>
+    </div>
+
+  </body>
+</html>

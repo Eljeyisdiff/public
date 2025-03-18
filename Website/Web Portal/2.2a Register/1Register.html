@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./1Register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!--NAVIGATION-->
+    <div class="logo1">
+        <div class="title">
+            <h1>BINAN INTEGRATED NATIONAL HIGH SCHOOL</h1>
+            <img src="../zimages/binhslogo-removebg-preview.png" alt="BINHS Logo" />
+        </div>
+    </div>
+
+    <!--FORM-->
+    <div class="Form">
+        <h1>STUDENT REGISTRATION</h1>
+        <form action="gg.php" method="post">
+            <div class="user-info">
+                <div>
+                    <input type="text" id="fname" name="fname" placeholder=" First Name:" required autocomplete="off">
+                </div>
+
+                <div>
+                    <input type="text" id="cname" name="mname" placeholder=" Middle Name:" required autocomplete="off">
+                </div>
+
+                <div>
+                    <input type="text" id="lname" name="lname" placeholder=" Last Name:" required autocomplete="off">
+                </div>
+            </div>
+            <div class="user-personal">
+
+                <div>
+                    <label id="label-bday">Birthday:</label>
+                    <input type="date" id="bdate" name="bdate" placeholder=" Birth date:" required>
+                </div>
+
+                <div>
+                    <input type="email" id="ename" name="ename" placeholder=" Email:" required>
+                </div>
+            </div>
+
+            <div class="user-input">
+                <div>
+                    <input type="tel" id="pnum" name="pnum" placeholder=" Cellphone number:" required>
+                </div>
+
+                <div>
+                    <input type="text" id="lrnname" name="lrnname" placeholder=" LRN: " required maxlength="12">
+                </div>
+
+                <div>
+                    <input type="text" id="pname" name="pname" placeholder=" password: " required maxlength="12">
+                </div>
+            </div>
+
+            <div class="gender">
+
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="Gender" value="Male">
+
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="Gender" value="Female">
+
+            </div> 
+            <br><input id="submit" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

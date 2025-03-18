@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.title {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+.title-content{
+    float: none;
+
+}
+.back-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    font-size: 25px;
+
+    position: relative;
+    top: 5px;
+    transition: 0.2s ease-in-out;
+}
+.back-button:hover{
+    opacity: 0.5;
+}
+.left-side-nav-bar{
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    background-color: rgb(1, 54, 18);
+    border-radius: 10px;
+    width: 15%;
+    height: 89.5%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+@keyframes slideInLeft{
+    from {
+        transform: translateX(-110px);
+    }
+    to{
+        transform: translate(0);
+    }
+}
+.left-side-nav-bar ul{
+    list-style: none;
+}
+.left-side-nav-bar ul li{
+    flex: 1;
+    animation-name: slideInLeft;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    text-decoration: none;
+    margin-top: 40px;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.left-side-nav-bar ul li:hover{
+    transform:translateX(20px) ;
+}
+.left-side-nav-bar ul li:active {
+    opacity: 0.5;
+}
+.left-side-nav-bar ul li a{
+    background-color: rgb(1, 54, 18);
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.left-side-nav-bar ul li a:hover{
+    color: rgb(1, 54, 18);
+    background-color: white;
+    
+
+}
+a:is(:link, :active, :visited).active{
+    color:black;
+    background-color: white;
+}
+#profile{
+
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: right;
+    
+    position: relative;
+    bottom: 43px;
+    right: 10px;
+
+}
+.Content{
+    border: 2px solid;
+    border-radius: 10px;
+
+    width: 80%;
+    height: 89.5%;
+
+    transform: translate(20%, -100%);
+    position: relative;
+}
+.Content h1{
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    background-color: rgb(1, 54, 18);
+    color: white;
+}
+.Sem{
+
+    border: 1px solid;
+    width: 100%;
+    height: 92.5%;
+}
+.Sem button{
+    border-radius: 50px;
+    margin-top: 5%;
+    height: 70%;
+    width: 40%;
+    margin-left: 6%;
+    transform: translate(10px, 10px);
+    font-size: 50px;
+    color: white;
+    background-color: rgb(1, 54, 18);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.Sem button:hover{
+     background-color: rgba(172, 237, 156, 0.884);
+      color :rgb(1, 54, 18);
+}

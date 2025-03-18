@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="LoginBox">
+      <form action="">
+        <h1>BINHS FACULTY-PORTAL</h1>
+        <div class="input-user">
+          <i class="bx bxs-user"></i>
+          <input id="input-lrn" type="text" placeholder=" LRN: " required />
+          <br />
+          <div class="input-password">
+            <i class="bx bxs-lock-alt"></i>
+            <input
+              id="input-pass"
+              type="password"
+              placeholder=" Password: "
+              required
+            /><br />
+            <input type="submit" value="Log In" id="login" />
+          </div>
+        </div>
+      </form>
+      <div>
+        <a id="forgot" href="forgot.html">forgot password?</a>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
